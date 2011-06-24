@@ -27,6 +27,7 @@ Make sure you have the following tools installed:
 * Libtool 2.2 or later
 * Bison 2.0 or later
 * Flex 2.5.x
+* Gnu Awk
 
 Grab GNU Smalltalk `3.2.4` source from [ftp://ftp.gnu.org/gnu/smalltalk](ftp://ftp.gnu.org/gnu/smalltalk).
 
