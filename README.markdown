@@ -54,6 +54,8 @@ This means you will need to open the `TestAssert.st` file under `src/koans` and 
 
 All koan files contain a set of tests, each starting with 'test'.  Solve each test one by one, running `script/run` in between.
 
+By default, `script/run` does not reveal the answer.  If you are truly stuck in a koan, type `script/run_and_reveal` to run and reveal the answer.  Use this sparingly!
+
 ### Editors with Smalltalk support
 
 * [redcar](https://github.com/redcar/redcar)
@@ -77,7 +79,7 @@ Words wrapped in `<>` are called pragmas and define class comments, category, im
 
 Ok, have at it!
 
-### Koans supported right now
+### List of Koans
 
 * TestAssert
 * TestBasic
@@ -103,9 +105,8 @@ Ok, have at it!
 * TestRegex
 * TestClass
 
-### Koans that still need to be written
+### Future Koans
 
-* TestClassHierarchy
 * TestMetaclass
 
 ### Pull Requests and Feedback are Welcome!
@@ -115,18 +116,18 @@ Please create a GitHub issue or find me on Twitter (@skim), if you have any sugg
 ### Future Plans
 
 * Rewrite the runner (make it smarter, faster, stronger)
-* Give user option to hide answers
 * Add an answer sheet
+* Add color to output
+* Add auto runner
 
 There is no set time, but I plan to port these koans over to the following Smalltalk dialects:
 
-* Pharo/Squeak
-* redline?
-* Jtalk?
+* redline
+* Amber
 
 ### Inspiration and Credits
 
-GNU Smalltalk Koans were inspired by Edgecase's Ruby Koans and [Aaron Bedra's](http://twitter.com/#!/abedra) Clojure Koans (now maintained by [Colin Jones](http://twitter.com/#!/trptcolin)).
+GNU Smalltalk Koans were inspired by Edgecase's [Ruby Koans](https://github.com/edgecase/ruby_koans) and [Aaron Bedra's](http://twitter.com/#!/abedra) [Clojure Koans](https://github.com/functional-koans/clojure-koans) (now maintained by [Colin Jones](http://twitter.com/#!/trptcolin)).
 
 Thanks to [Matt Yoho](http://twitter.com/#!/mattyoho) at Edgecase for letting me port some of the koans over.
 
@@ -137,3 +138,11 @@ Other thanks:
 * [Chris Rathman](http://squeak.joyful.com/LanguageNotes) for the awesome language notes.
 * Jayden for being the first person to run through the koans.
 * [Anita Kuno](https://twitter.com/#!/anteaya) (contributor)
+
+### License
+
+![cc-license](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
+
+GNU Smalltalk Koans shares the same license as Ruby Koans and is released under a Creative Commons,
+Attribution-NonCommercial-ShareAlike, Version 3.0
+([http://creativecommons.org/licenses/by-nc-sa/3.0/](http://creativecommons.org/licenses/by-nc-sa/3.0/)) License.
